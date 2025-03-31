@@ -1,0 +1,32 @@
+.heading {
+    display: flex;
+    margin-top: 9rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+img{
+    height: 5rem;
+    // margin-right: 5rem;
+}
+
+.mail :hover{
+    transform: scale(1.2);
+}
+.linkedin :hover{
+    transform: scale(1.2);
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    // align-items: center;
+    // margin-left: 44vw;
+    // margin-right: 44vw;
+}
+
+.linkedin-image {
+    margin-top: 6px;
+    height: 4.2rem;
+}

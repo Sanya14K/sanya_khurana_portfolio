@@ -1,0 +1,135 @@
+.heading {
+    display: flex;
+    margin-top: 9rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.education-container{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (max-width: 767px) {
+        flex-direction: column;
+        margin-left: 12vw;
+    }
+        
+}
+
+.college-sticky-note, .class12-sticky-note, .class10-sticky-note{
+    height: 21rem; 
+}
+
+
+
+.sticky-note{
+    display: flex;
+    img{
+        height: 20rem;
+    }
+
+    @media (max-width: 1023px) and (min-width: 768px) {
+        img {
+            height: 19rem;
+        }
+    }
+}
+
+.sticky-note-text{
+    width: 19rem;
+    img{
+        height: 10rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    transform: translateY(-102%);
+    font-weight: bold;
+    .grades, .education-heading{
+        text-align: center;
+    }
+    .education-heading{
+        h2 {
+                // font-family: 'MyBoldfont', Arial, Helvetica, sans-serif;
+                font-size: 2rem;
+        }
+        margin-bottom: 1rem;
+    }
+
+    @media (max-width: 767px) {
+        transform: translateY(-106%);
+    }
+}
+
+.class12, .class10{
+    .sticky-note-text{
+        transform: translateY(-104%);
+        img{
+            margin-left: 6rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.class10{
+    .sticky-note-text{
+        .education-heading{
+            margin-bottom: 3rem;
+        }
+        img{
+            margin-left: 5rem;
+            height: 8rem;
+        }
+    }
+}
+
+
+.extra-info{
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+
+    @media (max-width: 767px) {
+        p{
+            font-size: 1.5rem;
+        }
+        li{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.place, .time{
+    display: flex;
+    line-height: 1.1;
+    img{
+        height: 1.5rem;
+        margin-right: 1rem;
+    }
+    margin-bottom: 0.3rem;
+    @media (max-width: 767px) {
+        p {
+                font-size: 1.5rem;
+        }
+    
+        li {
+                font-size: 1.5rem;
+        }
+    }
+}
+
+.time{
+    img{
+        height: 1.2rem;
+        margin-right: 0.7rem;
+    }
+}
+
+// shadow
+.sticky-note{
+    filter: drop-shadow(1px 7px 5px rgba(158, 157, 157, 0.4));
+}
+
+// animations
+

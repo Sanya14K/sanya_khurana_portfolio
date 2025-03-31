@@ -1,0 +1,60 @@
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    //position: relative;
+}
+
+.about-section{
+    width: 70vw;
+}
+
+.hello-world{
+    margin-top: 4.5rem;
+    text-align: center;
+    font-family: 'MyBoldfont', Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+}
+
+.my-name{
+    text-align: center;
+    font-family: 'MyBoldfont', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+.intro1{
+    padding-top: 2rem;
+    font-family: 'Myfontsmall', Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    margin-left: 5%;
+    line-height: 1.1;
+}
+
+.intro2 {
+    font-family: 'Myfontsmall', Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    margin-left: 5%;
+    justify-content: center;
+    line-height: 1.1;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    @media (max-width: 767px) {
+        margin-top: 1rem;
+    }
+}
+
+img{
+    height: 15rem;
+    @media (max-width: 767px) {
+        height: 10rem;
+    }
+}

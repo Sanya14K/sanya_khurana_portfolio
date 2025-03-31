@@ -1,0 +1,45 @@
+.heading {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+    
+    @media (max-width: 767px) {
+        margin-left: 1rem;
+    }
+}
+
+.subcontent{
+    display: flex;
+    img{
+        height: 4rem;
+        margin-right: 3rem;
+    }
+    margin-bottom: 2rem;
+
+    @media (max-width: 767px) {
+        img{
+            margin-right: 1.5rem;
+        }
+        p{
+            width: 14rem;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.subcontent-text{
+    h2{
+        font-family: 'MyBoldfont', Arial, Helvetica, sans-serif;
+    }
+}
+
+p{
+    font-size: 1.9rem;
+}
