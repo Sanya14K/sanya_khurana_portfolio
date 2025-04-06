@@ -4,8 +4,12 @@
 }
 
 .work-experience{
+    margin-top: 11rem;
+    @media (max-width: 1023px) and (min-width: 768px) {
+        margin-top: 11rem;
+    }
     @media (max-width: 767px) {
-        margin-top: 31rem;
+        margin-top: 11rem;
     }
    
 }

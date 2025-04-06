@@ -1,14 +1,25 @@
 .heading {
     display: flex;
-    margin-top: 5rem;
+    margin-top: 2rem;
     justify-content: center;
     margin-bottom: 2rem;
+    @media (max-width: 1023px) and (min-width: 768px) {
+        margin-top:0rem;
+    }
+    
+    @media (max-width: 767px) {
+        margin-top: 0rem;
+    }
 }
 
 .content{
     display: flex;
     flex-direction: column;
     margin-left: 30vw;
+
+    @media (max-width: 1023px) and (min-width: 768px) {
+        margin-left: 20vw;
+    }
     
     @media (max-width: 767px) {
         margin-left: 1rem;

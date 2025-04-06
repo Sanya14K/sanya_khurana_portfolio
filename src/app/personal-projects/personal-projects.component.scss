@@ -92,6 +92,11 @@
     }
 }
 
+.sticky-note-text ::selection {
+    background-color: #f4e94b;
+    color: #424141;
+}
+
 .project2{
     .extra-info {
         transform: translateY(-411%);

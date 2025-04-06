@@ -24,6 +24,7 @@
 
 
 
+
 .sticky-note{
     display: flex;
     img{
@@ -60,6 +61,11 @@
     @media (max-width: 767px) {
         transform: translateY(-106%);
     }
+}
+
+.sticky-note-text ::selection {
+    background-color: #f4e94b;
+    color: #424141;
 }
 
 .class12, .class10{
